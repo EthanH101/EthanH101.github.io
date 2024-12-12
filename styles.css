@@ -170,3 +170,69 @@ figure:hover figcaption {
 html {
     scroll-behavior: smooth;
 }
+
+
+
+
+.skills {
+    margin-top: 60px;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.skills h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.skills p {
+    font-size: 18px;
+    color: lightgray;
+    margin-bottom: 40px;
+}
+
+.skill-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-icon {
+    flex: 0 0 80px; 
+    text-align: center;
+    
+}
+
+.skill-icon img {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+
+.skill-icon img:hover {
+    transform: scale(1.5); 
+}
+
+
+
+
+
+.skill-text {
+    flex: 1;
+    text-align: left;
+    max-width: 600px;
+}
+
+.skill-text h3 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.skill-text p {
+    font-size: 16px;
+    color: lightgray;
+    line-height: 1.6;
+}
