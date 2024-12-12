@@ -369,3 +369,65 @@ html {
     color: lightgray;
     line-height: 1.6;
 }
+
+
+.projects {
+    margin-top: 60px;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.projects h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.projects p {
+    font-size: 18px;
+    color: lightgray;
+    margin-bottom: 40px;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap; 
+    gap: 20px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.project-card .project-text {
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+}
+
+.project-card .project-text h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.project-card .project-text p {
+    font-size: 16px;
+    color: lightgray;
+    margin-bottom: 10px;
+}
+
+
+
+.project-card .project-image {
+    flex: 1;
+    max-width: 400px;
+}
+
+.project-card .project-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
