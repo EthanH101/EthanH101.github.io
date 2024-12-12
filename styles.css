@@ -236,3 +236,76 @@ html {
     color: lightgray;
     line-height: 1.6;
 }
+
+
+
+.current {
+    margin-top: 60px;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.current h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.current-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.carousel {
+    flex: 1; 
+    position: relative;
+    max-width: 500px; 
+    overflow: hidden;
+    margin-left: -20px; 
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-images img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.current-text {
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+    color: lightgray;
+}
